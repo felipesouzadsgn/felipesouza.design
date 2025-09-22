@@ -1,10 +1,12 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
-    <>
-      <h1>Home</h1>
-      <Link href="/about">Go to About</Link>
-    </>
+    <main>
+      <section className="w-full h-screen bg-[url(./bg-hero.jpg)] bg-cover bg-center flex flex-col justify-center items-center">
+        <h1 className="text-4xl text-white tracking-tighter text-balance">Welcome</h1>
+        <p className="text- text-white font-medium">
+          Product Designer & Framer Developer
+        </p>
+      </section>
+    </main>
   );
 }
