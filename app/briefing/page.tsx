@@ -24,10 +24,6 @@ export default function BriefingPage() {
                         <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" />
                         <span className="font-mono text-sm uppercase tracking-wider">Voltar</span>
                     </Link>
-
-                    <ProfileHeader />
-
-                    <div className="w-[88px] hidden md:block"></div> {/* Spacer for balance */}
                 </div>
 
                 <div className="flex flex-col items-center justify-center mb-16 text-center">
