@@ -11,6 +11,11 @@ const SKILLS = [
     { label: 'UX', type: 'white' },
     { label: 'UI', type: 'black' },
     { label: 'Motion Design', type: 'black' },
+    { label: 'Back-end', type: 'white' },
+    { label: 'Prompt Engineer', type: 'black' },
+    { label: 'Traffic Manager', type: 'white' },
+    { label: 'SEO', type: 'black' },
+    { label: 'IA', type: 'white' },
 ];
 
 const GravitySkills: React.FC = () => {
@@ -128,11 +133,7 @@ const GravitySkills: React.FC = () => {
     return (
         <div ref={containerRef} className="relative w-full h-[450px] overflow-hidden cursor-grab active:cursor-grabbing">
             {/* Background Image */}
-            <img
-                src="/skills-bg.png"
-                alt="Skills Background"
-                className="absolute inset-0 w-full h-full object-cover object-top pointer-events-none select-none"
-            />
+            {/* Background Removed */}
 
             {/* Physics Elements */}
             <div className="absolute inset-0 z-10">

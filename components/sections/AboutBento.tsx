@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Terminal, Headphones, Gamepad2, Music, Camera } from 'lucide-react';
+import { Globe, Terminal, Headphones, Gamepad2, Music, Camera, Layers } from 'lucide-react';
 import { FramerIcon, ChatGPTIcon, AntigravityIcon, GeminiIcon, ObsidianIcon, ReactIcon, NextJsIcon, ClaudeCodeIcon, CapCutIcon, PhotoshopIcon, MidjourneyIcon, HTMLIcon, CSSIcon, JSIcon } from '../ui/TechIcons';
 import Reveal from '../ui/Reveal';
 import GravitySkills from './GravitySkills';
@@ -21,7 +21,20 @@ const AboutBento: React.FC = () => {
                 </div>
 
                 {/* Skills Card - Central Feature with Gravity Physics */}
-                <div className="bg-[#0A0A0A] border border-white/5 rounded-3xl overflow-hidden">
+                <div className="bg-[#0A0A0A] border border-white/5 rounded-3xl overflow-hidden relative group">
+                    <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none" />
+
+                    {/* Header Overlay */}
+                    <div className="absolute inset-0 z-20 pointer-events-none flex flex-col items-center justify-start pt-10 text-center">
+                        <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center mb-4">
+                            <Layers className="text-white" size={24} />
+                        </div>
+                        <h3 className="text-2xl font-bold text-white mb-2">Skills</h3>
+                        <p className="text-gray-500 text-sm max-w-xs">
+                            Drag & throw them around.
+                        </p>
+                    </div>
+
                     <GravitySkills />
                 </div>
 

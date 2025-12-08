@@ -1,4 +1,6 @@
 {
+  "/briefing/page": "app/briefing/page.js",
   "/page": "app/page.js",
-  "/briefing/page": "app/briefing/page.js"
+  "/templates/page": "app/templates/page.js",
+  "/templates/[id]/page": "app/templates/[id]/page.js"
 }

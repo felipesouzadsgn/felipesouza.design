@@ -67,7 +67,7 @@ const HomeClient: React.FC = () => {
                 <Hero />
                 <AboutBento />
                 <Projects />
-                <AgentPromo onAgentClick={() => setCurrentView('agent')} />
+                {/* <AgentPromo onAgentClick={() => setCurrentView('agent')} /> */}
                 <Workflow />
                 <Testimonials />
                 <Contact />
