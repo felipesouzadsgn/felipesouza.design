@@ -1,6 +1,0 @@
-{
-  "/briefing/page": "app/briefing/page.js",
-  "/page": "app/page.js",
-  "/templates/page": "app/templates/page.js",
-  "/templates/[id]/page": "app/templates/[id]/page.js"
-}
