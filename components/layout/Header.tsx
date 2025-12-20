@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Zap, Menu, X, Layers, Briefcase, Cpu, Mail, Bot } from 'lucide-react';
+import { Menu, X, Layers, Briefcase, Cpu, Mail, Bot } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 interface HeaderProps {
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ onAgentClick }) => {
 
             <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:block">
                 <div className="w-10 h-10 flex items-center justify-center">
-                    <Zap size={32} className="text-white fill-white" />
+                    <img src="/assets/fs-logo.svg" alt="Felipe Souza Design Logo" className="w-full h-full object-contain" />
                 </div>
             </div>
 

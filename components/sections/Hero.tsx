@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
                     <span className="inline-block mb-6 text-xs font-bold tracking-[0.3em] text-gray-600 uppercase">
                         Bem-vindo
                     </span>
-                    <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                    <h1 className="text-5xl md:text-7xl font-bold font-futuristic text-white mb-6 leading-tight">
                         Inovação digital em <br />
                         <span className="text-gray-500">sites, apps e sistemas</span>
                     </h1>
