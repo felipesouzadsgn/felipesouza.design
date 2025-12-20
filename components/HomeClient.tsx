@@ -9,6 +9,7 @@ import Projects from '../components/sections/Projects';
 import AgentPromo from '../components/sections/AgentPromo';
 import Workflow from '../components/sections/Workflow';
 import Testimonials from '../components/sections/Testimonials';
+import Calculator from '../components/sections/Calculator';
 import Contact from '../components/sections/Contact';
 import { SOCIAL_LINKS } from '../lib/constants';
 
@@ -65,11 +66,10 @@ const HomeClient: React.FC = () => {
 
             <main>
                 <Hero />
-                <AboutBento />
                 <Projects />
-                {/* <AgentPromo onAgentClick={() => setCurrentView('agent')} /> */}
-                <Workflow />
-                <Testimonials />
+                {/* <Workflow /> */}
+                <AboutBento />
+                <Calculator />
                 <Contact />
             </main>
         </div>
