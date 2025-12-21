@@ -8,35 +8,7 @@ import { MessageSquare, X, Send, User, Bot } from 'lucide-react';
 import { SOCIAL_LINKS } from '../../lib/constants';
 import * as THREE from 'three';
 
-// --- Mini 3D Sphere for the Widget Icon ---
-const MiniSphere = ({ scale = 1.4 }: { scale?: number }) => {
-    const meshRef = useRef<THREE.Points>(null!);
-
-    useFrame((state) => {
-        const time = state.clock.getElapsedTime();
-        // Slow, elegant rotation
-        meshRef.current.rotation.y = time * 0.1;
-        meshRef.current.rotation.x = time * 0.05;
-
-        // Subtle breathing
-        const s = scale + Math.sin(time * 0.8) * 0.05;
-        meshRef.current.scale.set(s, s, s);
-    });
-
-    return (
-        <points ref={meshRef}>
-            {/* Reduced segment count for minimalist "dot" look */}
-            <sphereGeometry args={[1, 32, 32]} />
-            <pointsMaterial
-                color="#ffffff"
-                size={0.12} // Larger dots for better visibility
-                sizeAttenuation={true}
-                transparent={true}
-                opacity={0.8}
-            />
-        </points>
-    );
-};
+import MiniSphere from './MiniSphere';
 
 // --- Types ---
 type Message = {

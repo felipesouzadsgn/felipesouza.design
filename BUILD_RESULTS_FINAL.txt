@@ -1,0 +1,47 @@
+
+> felipe-souza-portfolio@0.0.0 build
+> next build
+
+  ▲ Next.js 14.2.33
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/14) ...
+   Generating static pages (3/14) 
+   Generating static pages (6/14) 
+⚠️  Node.js 18 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 20 or later. For more information, visit: https://github.com/orgs/supabase/discussions/37217
+⚠️  Node.js 18 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 20 or later. For more information, visit: https://github.com/orgs/supabase/discussions/37217
+   Generating static pages (10/14) 
+ ✓ Generating static pages (14/14)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    46.8 kB         565 kB
+├ ○ /_not-found                          137 B          87.5 kB
+├ ○ /agent                               331 B           504 kB
+├ ƒ /api/chat                            0 B                0 B
+├ ○ /briefing                            7.6 kB          104 kB
+├ ○ /links                               4.73 kB        92.1 kB
+├ ● /projects/[id]                       178 B          96.2 kB
+├   ├ /projects/neon-bank-app
+├   ├ /projects/arkitect-studio
+├   └ /projects/healthai-dashboard
+├ ○ /proposta                            8.27 kB        95.6 kB
+├ ○ /styleguide                          3.09 kB        90.4 kB
+├ ○ /templates                           6.14 kB         108 kB
+└ ƒ /templates/[id]                      7.59 kB         110 kB
++ First Load JS shared by all            87.3 kB
+  ├ chunks/117-a5dbb3d8d6b5583a.js       31.7 kB
+  ├ chunks/fd9d1056-f42e3a44b4c14fe1.js  53.7 kB
+  └ other shared chunks (total)          1.95 kB
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+
