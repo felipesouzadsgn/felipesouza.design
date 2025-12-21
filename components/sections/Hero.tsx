@@ -1,24 +1,31 @@
 import React from 'react';
 import { Instagram, Github, Layout, Figma, X } from 'lucide-react';
-import HeroWave from '../ui/HeroWave';
 import Reveal from '../ui/Reveal';
 import { SOCIAL_LINKS } from '../../lib/constants';
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden" style={{ backgroundColor: '#000000' }}>
-            {/* Background Wave */}
-            <div className="opacity-30">
-                <HeroWave />
+        <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden bg-black">
+            {/* Background Video */}
+            <div className="absolute inset-0 w-full h-full z-0">
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover opacity-50"
+                >
+                    <source src="/video/bg-video.mp4" type="video/mp4" />
+                </video>
             </div>
 
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black z-10 pointer-events-none" />
 
             {/* Main Content */}
             <div className="relative z-20 text-center max-w-4xl px-6 mt-20">
                 <Reveal>
-                    <span className="inline-block mb-6 text-xs font-bold tracking-[0.3em] text-gray-600 uppercase">
+                    <span className="inline-block mb-6 text-xs font-bold tracking-[0.3em] text-gray-400 uppercase">
                         Bem-vindo
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold font-futuristic text-white mb-6 leading-tight">
