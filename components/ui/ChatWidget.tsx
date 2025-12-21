@@ -173,7 +173,7 @@ const ChatWidget: React.FC = () => {
                         </div>
 
                         {/* Separator */}
-                        <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+                        <div className="h-px w-full bg-linear-to-r from-transparent via-white/10 to-transparent" />
 
                         {/* Input Area (Integrated) */}
                         <div className="p-4 z-10 bg-white/5">
