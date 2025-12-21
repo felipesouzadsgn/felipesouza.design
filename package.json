@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@google/genai": "^1.31.0",
-    "@react-three/drei": "^10.7.7",
+    "@react-three/drei": "^9.102.6",
     "@react-three/fiber": "^8.18.0",
     "@types/matter-js": "^0.20.2",
     "@types/three": "^0.182.0",
