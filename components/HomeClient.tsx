@@ -48,21 +48,7 @@ const HomeClient: React.FC = () => {
                 style={{ left: mousePosition.x, top: mousePosition.y }}
             />
 
-            {/* Floating WhatsApp Button */}
-            <div className="fixed bottom-8 right-8 z-40 animate-bounce-slow">
-                <a
-                    href={`https://wa.me/${SOCIAL_LINKS.whatsapp}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="group relative flex items-center justify-center p-4 bg-white hover:bg-gray-200 text-black rounded-2xl shadow-lg transition-all hover:scale-105"
-                    aria-label="Contato via WhatsApp"
-                >
-                    <MessageSquare size={28} />
-                    <span className="absolute right-full mr-4 bg-black border border-white/10 text-white px-4 py-2 rounded-xl text-sm font-bold opacity-0 group-hover:opacity-100 transition-all whitespace-nowrap translate-x-4 group-hover:translate-x-0 pointer-events-none shadow-lg">
-                        Fale comigo agora
-                    </span>
-                </a>
-            </div>
+
 
             <main>
                 <Hero />

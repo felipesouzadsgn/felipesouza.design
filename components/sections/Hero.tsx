@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black z-10 pointer-events-none" />
 
             {/* Main Content */}
-            <div className="relative z-20 text-center max-w-3xl px-6 mt-20">
+            <div className="relative z-20 text-center max-w-3xl px-6 mt-20 flex flex-col items-center">
                 <Reveal>
                     <span className="inline-block mb-4-xs tracking-[0.3em] text-gray-400 uppercase">
                         Bem-vindo

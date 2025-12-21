@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
+import ChatWidget from "../components/ui/ChatWidget";
 
 export default function RootLayout({
   children,
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${jetbrainsMono.variable} ${rem.variable} ${raleway.variable} ${spaceGrotesk.variable} font-sans antialiased bg-[#020202] text-gray-200`}>
         <Header />
         {children}
+        <ChatWidget />
         <Footer />
       </body>
     </html>
