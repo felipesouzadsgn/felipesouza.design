@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                     loop
                     muted
                     playsInline
-                    className="w-full h-full object-cover opacity-50"
+                    className="w-full h-full object-cover"
                 >
                     <source src="/video/bg-video.mp4" type="video/mp4" />
                 </video>
@@ -23,17 +23,17 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black z-10 pointer-events-none" />
 
             {/* Main Content */}
-            <div className="relative z-20 text-center max-w-4xl px-6 mt-20">
+            <div className="relative z-20 text-center max-w-3xl px-6 mt-20">
                 <Reveal>
-                    <span className="inline-block mb-6 text-xs font-bold tracking-[0.3em] text-gray-400 uppercase">
+                    <span className="inline-block mb-6 text-xs tracking-[0.3em] text-gray-400 uppercase">
                         Bem-vindo
                     </span>
-                    <h1 className="text-5xl md:text-7xl font-bold font-futuristic text-white mb-6 leading-tight">
-                        Inovação digital em <br />
-                        <span className="text-gray-500">sites, apps e sistemas</span>
+                    <h1 className="text-4xl md:text-5xl font-futuristic text-white mb-6 leading-tight">
+                        Experiências Digitais <br />
+                        <span className="text-gray-500">do Futuro</span>
                     </h1>
-                    <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
-                        Entre em contato e acelere sua transformação digital
+                    <p className="text-gray-400 text-lg md:text-lg mb-12 max-w-2xl mx-auto">
+                        Design minimalista, performance e inovação para sua marca.
                     </p>
 
                     {/* Social Links */}

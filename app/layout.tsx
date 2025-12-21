@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, REM, Raleway, Orbitron } from "next/font/google";
+import { Inter, JetBrains_Mono, REM, Raleway, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -9,7 +9,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 const rem = REM({ subsets: ["latin"], variable: "--font-rem" });
 const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
-const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" });
+const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
 export const metadata: Metadata = {
   title: "Felipe Souza | Design & Code",
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="dark">
-      <body className={`${inter.variable} ${jetbrainsMono.variable} ${rem.variable} ${raleway.variable} ${orbitron.variable} font-sans antialiased bg-[#020202] text-gray-200`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} ${rem.variable} ${raleway.variable} ${spaceGrotesk.variable} font-sans antialiased bg-[#020202] text-gray-200`}>
         <Header />
         {children}
         <Footer />

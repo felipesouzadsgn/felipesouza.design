@@ -14,7 +14,7 @@ const config: Config = {
                 mono: ['var(--font-jetbrains)', 'monospace'],
                 display: ['var(--font-rem)', 'sans-serif'],
                 body: ['var(--font-raleway)', 'sans-serif'],
-                futuristic: ['var(--font-orbitron)', 'sans-serif'],
+                futuristic: ['var(--font-space-grotesk)', 'sans-serif'],
             },
             animation: {
                 'bounce-slow': 'bounce 3s infinite',
