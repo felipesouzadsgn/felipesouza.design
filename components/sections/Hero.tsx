@@ -29,10 +29,9 @@ const Hero: React.FC = () => {
                         Bem-vindo
                     </span>
                     <h1 className="text-4xl md:text-5xl font-futuristic text-white mb-6 leading-tight">
-                        Experiências Digitais <br />
-                        <span className="text-gray-500">do Futuro</span>
+                        Design & <span className="text-gray-500">Code</span>
                     </h1>
-                    <p className="text-gray-400 text-lg md:text-lg mb-12 max-w-2xl mx-auto">
+                    <p className="text-gray-400 text-lg md:text-md mb-12 max-w-2xl mx-auto">
                         Design minimalista, performance e inovação para sua marca.
                     </p>
 
