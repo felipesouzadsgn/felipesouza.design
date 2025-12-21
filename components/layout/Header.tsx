@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ onAgentClick }) => {
             </div>
 
             <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:block">
-                <div className="w-10 h-10 flex items-center justify-center">
+                <div className="w-12 h-12 flex items-center justify-center">
                     <img src="/assets/fs-logo.svg" alt="Felipe Souza Design Logo" className="w-full h-full object-contain" />
                 </div>
             </div>

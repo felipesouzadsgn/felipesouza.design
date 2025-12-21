@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
             {/* Main Content */}
             <div className="relative z-20 text-center max-w-3xl px-6 mt-20">
                 <Reveal>
-                    <span className="inline-block mb-6 text-xs tracking-[0.3em] text-gray-400 uppercase">
+                    <span className="inline-block mb-4-xs tracking-[0.3em] text-gray-400 uppercase">
                         Bem-vindo
                     </span>
                     <h1 className="text-4xl md:text-5xl font-futuristic text-white mb-6 leading-tight">
@@ -60,10 +60,10 @@ const Hero: React.FC = () => {
 
             {/* Scroll Indicator */}
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center gap-2 animate-bounce-slow opacity-50">
-                <div className="w-6 h-10 border border-white/30 rounded-full flex justify-center p-1">
+                <div className="w-4 h-8 border border-white/30 rounded-full flex justify-center p-1">
                     <div className="w-1 h-2 bg-white rounded-full animate-scroll-down" />
                 </div>
-                <span className="text-[10px] uppercase tracking-widest text-white">Scroll</span>
+                <span className="text-[8px] tracking-[0.5em] uppercase text-center text-white">Scroll</span>
             </div>
         </section>
     );
