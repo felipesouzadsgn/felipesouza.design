@@ -1,7 +1,7 @@
-import React from 'react';
-import { Instagram, Github, Layout, Figma, X } from 'lucide-react';
-import Reveal from '../ui/Reveal';
-import { SOCIAL_LINKS } from '../../lib/constants';
+import React from "react";
+import { Instagram, Github, Layout, Figma, X } from "lucide-react";
+import Reveal from "../ui/Reveal";
+import { SOCIAL_LINKS } from "../../lib/constants";
 
 const Hero: React.FC = () => {
     return (
@@ -25,24 +25,40 @@ const Hero: React.FC = () => {
             {/* Main Content */}
             <div className="relative z-20 text-center max-w-3xl px-6 mt-20 flex flex-col items-center">
                 <Reveal>
-                    <span className="inline-block mb-4-xs tracking-[0.3em] text-gray-400 uppercase">
-                        Bem-vindo
+                    <span className="inline-block mb-4 text-xs tracking-[0.3em] text-gray-400 uppercase">
+                        Built for Performance
                     </span>
                     <h1 className="text-4xl md:text-5xl font-futuristic text-white mb-6 leading-tight">
-                        Design & <span className="text-gray-500">Code</span>
+                        Design & Code de{" "}
+                        <span className="text-gray-500">Alta Performance</span>
                     </h1>
                     <p className="text-gray-400 text-lg md:text-md mb-12 max-w-2xl mx-auto">
-                        Design minimalista, performance e inovação para sua marca.
+                        Estratégia, design e desenvolvimento focados em clareza,
+                        velocidade e resultados reais no digital.
                     </p>
+
+                    {/* CTA Button */}
+                    <a
+                        href="#projects"
+                        className="inline-flex items-center justify-center px-8 py-4 mb-12 text-sm font-medium tracking-wider uppercase bg-white text-black hover:bg-gray-200 transition-all rounded-full hover:scale-105"
+                    >
+                        Ver trabalhos
+                    </a>
 
                     {/* Social Links */}
                     <div className="flex justify-center gap-6 mb-12">
                         {[
-                            { icon: <Instagram size={20} />, href: SOCIAL_LINKS.instagram },
-                            { icon: <Github size={20} />, href: SOCIAL_LINKS.github },
+                            {
+                                icon: <Instagram size={20} />,
+                                href: SOCIAL_LINKS.instagram,
+                            },
+                            {
+                                icon: <Github size={20} />,
+                                href: SOCIAL_LINKS.github,
+                            },
                             { icon: <Layout size={20} />, href: "#" },
                             { icon: <Figma size={20} />, href: "#" },
-                            { icon: <X size={20} />, href: "#" }
+                            { icon: <X size={20} />, href: "#" },
                         ].map((item, i) => (
                             <a
                                 key={i}
@@ -63,7 +79,9 @@ const Hero: React.FC = () => {
                 <div className="w-4 h-8 border border-white/30 rounded-full flex justify-center p-1">
                     <div className="w-1 h-2 bg-white rounded-full animate-scroll-down" />
                 </div>
-                <span className="text-[8px] tracking-[0.5em] uppercase text-center text-white">Scroll</span>
+                <span className="text-[8px] tracking-[0.5em] uppercase text-center text-white">
+                    Scroll
+                </span>
             </div>
         </section>
     );
