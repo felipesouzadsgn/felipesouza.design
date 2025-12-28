@@ -29,21 +29,13 @@ const Hero: React.FC = () => {
                         Built for Performance
                     </span>
                     <h1 className="text-4xl md:text-5xl font-futuristic text-white mb-6 leading-tight">
-                        Design & Code de{" "}
+                        Design & Code <br /> de{" "}
                         <span className="text-gray-500">Alta Performance</span>
                     </h1>
-                    <p className="text-gray-400 text-lg md:text-md mb-12 max-w-2xl mx-auto">
+                    <p className="text-gray-400 text-lg md:text-md mb-12 max-w-lg mx-auto">
                         Estratégia, design e desenvolvimento focados em clareza,
                         velocidade e resultados reais no digital.
                     </p>
-
-                    {/* CTA Button */}
-                    <a
-                        href="#projects"
-                        className="inline-flex items-center justify-center px-8 py-4 mb-12 text-sm font-medium tracking-wider uppercase bg-white text-black hover:bg-gray-200 transition-all rounded-full hover:scale-105"
-                    >
-                        Ver trabalhos
-                    </a>
 
                     {/* Social Links */}
                     <div className="flex justify-center gap-6 mb-12">
