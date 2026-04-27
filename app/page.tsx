@@ -189,44 +189,44 @@ const LinksPage = () => {
 
     const blogPosts = [
         {
-            title: "Como Deployar um Agente de IA em Produção: Guia Completo 2026",
-            excerpt: "Rodar agentes de IA localmente é fácil. Colocá-los em produção com latência baixa e uptime garantido é outra história. Neste guia, mostro como configurei um servidor com Kimi, OpenClaw e GPT para responder clientes 24/7. Para rodar isso em produção, use uma infraestrutura confiável como um VPS próprio.\n\nStack recomendada: Iniciante → Hostinger Premium | Profissional → VPS KVM 2 | Escala → Cloud Professional",
-            date: "22 Abr 2026",
-            readTime: "12 min",
+            title: "Como Construir um Agente Autônomo com Kimi e OpenClaw em 2026",
+            excerpt: "Agentes de IA autônomos são a nova fronteira da produtividade em 2026. Neste guia completo, mostro como conectei Kimi, OpenClaw e GPT-5 em uma arquitetura que responde clientes, gera relatórios e toma decisões sem intervenção humana. O segredo está na infraestrutura: rodar tudo em um [VPS dedicado para agentes de IA](https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e) garante latência baixa e uptime 24/7.\n\nStack recomendada: Iniciante → [hospedagem simples para testes](https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_premium&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-9e17-73ea-939c-b98b535e64f9) | Profissional → [VPS ideal para rodar agentes](https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e) | Escala → [infraestrutura cloud para escalar](https://www.hostinger.com/br/cart?product=hosting%3Acloud_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-23b9-7163-9984-1e590182a132)",
+            date: "24 Abr 2026",
+            readTime: "14 min",
             tag: "Dev",
             image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
             href: "#blog",
-            affiliate: { label: "VPS KVM 2", href: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e" }
+            affiliate: { label: "VPS para Agentes", href: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e" }
         },
         {
-            title: "Por que Todo Freelancer No-Code Precisa de Infra Própria",
-            excerpt: "Dependência de plataformas de terceiros é um risco oculto. Quando seu cliente precisa de uma landing page rápida ou um workflow customizado, ter um servidor próprio te dá liberdade total. Montei uma stack no Framer + Hostinger Cloud que roda sites de alta conversão sem depender de ninguém.\n\nStack recomendada: Iniciante → Business Hosting | Profissional → Cloud Professional | Escala → VPS KVM 4",
-            date: "15 Abr 2026",
-            readTime: "9 min",
+            title: "Framer + IA Generativa: Criar Landing Pages que Convertem em 2026",
+            excerpt: "A combinação de Framer com IA generativa revolucionou a criação de interfaces em 2026. Neste artigo, mostro como uso Kimi para gerar copy persuasiva e [criar interfaces profissionais sem código](https://framer.link/fsdsgn) em menos de 2 horas. O resultado são landing pages com taxa de conversão 3x maior que templates tradicionais.\n\nStack recomendada: Interface → [criar no Framer com IA](https://framer.link/fsdsgn) | Hospedagem → [estrutura robusta para landing pages](https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b) | Escala → [cloud quando o tráfego crescer](https://www.hostinger.com/br/cart?product=hosting%3Acloud_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-23b9-7163-9984-1e590182a132)",
+            date: "18 Abr 2026",
+            readTime: "10 min",
             tag: "No-Code",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
             href: "#blog",
-            affiliate: { label: "Cloud Professional", href: "https://www.hostinger.com/br/cart?product=hosting%3Acloud_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-23b9-7163-9984-1e590182a132" }
+            affiliate: { label: "Framer + IA", href: "https://framer.link/fsdsgn" }
         },
         {
-            title: "Automação Criativa: Como Economizei 12h na Semana com Agentes",
-            excerpt: "Criei um fluxo que conecta Kimi, Claude e GPT em uma pipeline automática: resumo de reuniões, geração de copy, criação de imagens e postagem em redes sociais. O gargalo era a infraestrutura. Migrar para um Business Hosting com SSL e CDN inclusos resolveu a latência e deixou tudo estável.\n\nStack recomendada: Iniciante → Premium | Profissional → Business Hosting | Escala → Cloud Startup",
-            date: "08 Abr 2026",
-            readTime: "7 min",
-            tag: "Produtividade",
+            title: "Pipeline CI/CD para Projetos de IA: Do Código ao Deploy em 2026",
+            excerpt: "Automatizar o deploy de modelos de IA é obrigatório em 2026. Neste guia técnico, mostro como configurei um pipeline completo com GitHub Actions, Docker e testes automatizados para projetos que usam Kimi, Claude e GPT. A escolha da infraestrutura define se seu agente fica online ou cai no primeiro pico de tráfego. Use um [VPS dedicado para projetos de IA](https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e) com root access e recursos garantidos.\n\nStack recomendada: Iniciante → [hospedagem com deploy simplificado](https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_premium&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-9e17-73ea-939c-b98b535e64f9) | Profissional → [VPS com controle total](https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e) | Escala → [cloud para alta disponibilidade](https://www.hostinger.com/br/cart?product=hosting%3Acloud_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-23b9-7163-9984-1e590182a132)",
+            date: "12 Abr 2026",
+            readTime: "11 min",
+            tag: "DevOps",
             image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
             href: "#blog",
-            affiliate: { label: "Business Hosting", href: "https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b" }
+            affiliate: { label: "VPS para CI/CD", href: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e" }
         },
         {
-            title: "Como Escalar uma Agência Digital sem Quebrar a Infraestrutura",
-            excerpt: "Crescer de 2 para 15 clientes em 6 meses trouxe um problema inesperado: a hospedagem não aguentava. Sites lentos, e-mail caindo no spam e backups falhando. A solução foi migrar tudo para uma estrutura de agência profissional com múltiplos sites, e-mail corporativo e backups automáticos.\n\nStack recomendada: Startup → Agency Startup | Profissional → Agency Professional | Escala → Agency Growth",
-            date: "01 Abr 2026",
-            readTime: "10 min",
+            title: "Como Monetizar Prompts e Templates de IA: Guia do Criador Digital 2026",
+            excerpt: "O mercado de prompts e templates de IA movimenta bilhões em 2026. Neste artigo, revelo como transformei prompts testados em produtos digitais que geram renda recorrente. A stack inclui [interfaces no Framer](https://framer.link/fsdsgn) para venda, automação com Kimi para entrega e uma [hospedagem confiável para escalar](https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b) sem medo de downtime.\n\nStack recomendada: Iniciante → [hospedagem para começar](https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_premium&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-9e17-73ea-939c-b98b535e64f9) | Profissional → [estrutura robusta para produtos digitais](https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b) | Escala → [cloud quando o tráfego explode](https://www.hostinger.com/br/cart?product=hosting%3Acloud_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-23b9-7163-9984-1e590182a132)",
+            date: "05 Abr 2026",
+            readTime: "9 min",
             tag: "Negócios",
             image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop",
             href: "#blog",
-            affiliate: { label: "Agency Professional", href: "https://www.hostinger.com/br/cart?product=hosting%3Aagency_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-e135-7386-8dfd-261185214643" }
+            affiliate: { label: "Hospedagem para Produtos", href: "https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b" }
         }
     ];
 

@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     default: "Felipe Souza | Dev, IA & Automação",
     template: "%s | Felipe Souza",
   },
-  description: "Especialista em desenvolvimento, agentes de IA, automação, no-code e infraestrutura para criadores digitais. Guias práticos, prompts e ferramentas para escalar projetos com inteligência artificial.",
-  keywords: ["dev", "IA", "inteligência artificial", "agentes de IA", "OpenClaw", "Kimi", "GPT", "Claude", "automação", "no-code", "VPS", "hosting", "landing pages", "Felipe Souza", "Santos", "São Paulo"],
+  description: "Guias práticos 2026 sobre agentes de IA autônomos, Kimi, OpenClaw, GPT-5, automação, no-code, Framer, pipeline CI/CD e infraestrutura para criadores digitais. Tutoriais de deploy, monetização de prompts e templates de IA.",
+  keywords: ["agente autônomo IA 2026", "Kimi AI tutorial", "OpenClaw guia", "GPT-5 deploy", "automação inteligente", "no-code Framer", "pipeline CI/CD IA", "monetizar prompts", "templates IA renda passiva", "VPS para agentes", "hosting dev", "cloud profissional", "landing page conversão", "criador digital", "Felipe Souza", "Santos", "São Paulo"],
   authors: [{ name: "Felipe Souza", url: "https://instagram.com/felipesouzadsgn" }],
   creator: "Felipe Souza",
   metadataBase: new URL("https://felipesouza-dsgn.vercel.app"),
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Felipe Souza | Dev, IA & Automação",
-    description: "Especialista em desenvolvimento, agentes de IA, automação e no-code.",
+    description: "Guias práticos 2026 sobre agentes de IA autônomos, Kimi, OpenClaw, GPT-5, automação e no-code.",
     images: ["/assets/fs-logo.svg"],
   },
   robots: {
