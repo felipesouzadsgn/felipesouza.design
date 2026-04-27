@@ -485,19 +485,36 @@ export default function PromptsPage() {
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
             Quer ir além dos prompts?
           </h2>
-          <p className="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
+          <p className="text-gray-400 max-w-xl mx-auto mb-4 leading-relaxed">
             Descubra ferramentas e métodos que uso no dia a dia para acelerar
-            entregas de design, copy e código com IA.
+            entregas de design, copy e código com IA. Para rodar seus agentes e
+            automações em produção com latência baixa, uma infraestrutura própria
+            faz toda a diferença.
           </p>
-          <a
-            href="https://app.orayon.ai/fs"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-black text-sm font-semibold hover:bg-gray-200 transition-colors"
-          >
-            <ExternalLink className="w-4 h-4" />
-            Conheça as ferramentas
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+            <a
+              href="https://app.orayon.ai/fs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-black text-sm font-semibold hover:bg-gray-200 transition-colors"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Conheça as ferramentas
+            </a>
+            <a
+              href="https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 text-white text-sm font-semibold border border-white/10 hover:bg-white/10 transition-colors"
+            >
+              <ExternalLink className="w-4 h-4" />
+              VPS para Agentes de IA
+            </a>
+          </div>
+          <p className="text-gray-500 text-xs max-w-md mx-auto">
+            Stack recomendada: Iniciante → Hostinger Premium |
+            Profissional → VPS KVM 2 | Escala → Cloud Professional
+          </p>
         </div>
       </section>
 

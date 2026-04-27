@@ -528,18 +528,34 @@ border: 1px solid rgba(255, 255, 255, ${(borderOpacity / 100).toFixed(2)});`;
 
         {/* CTA */}
         <section className="text-center space-y-4 py-8">
-          <p className="text-gray-500 text-sm">
-            Quer mais ferramentas como essas?
+          <p className="text-gray-500 text-sm max-w-md mx-auto">
+            Quer mais ferramentas como essas? Para rodar seus experimentos em
+            produção com uptime garantido, uma infraestrutura própria é
+            essencial.
           </p>
-          <a
-            href="https://app.orayon.ai/hub-ai/fs"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-bold text-sm hover:bg-gray-200 transition-colors"
-          >
-            Acessar Hub AI
-            <ArrowUpRight size={16} />
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a
+              href="https://app.orayon.ai/hub-ai/fs"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-bold text-sm hover:bg-gray-200 transition-colors"
+            >
+              Acessar Hub AI
+              <ArrowUpRight size={16} />
+            </a>
+            <a
+              href="https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/10 bg-white/5 text-gray-300 font-bold text-sm hover:bg-white/10 transition-colors"
+            >
+              Business Hosting
+              <ArrowUpRight size={16} />
+            </a>
+          </div>
+          <p className="text-gray-600 text-xs">
+            Stack recomendada: Iniciante → Premium | Profissional → Business Hosting | Escala → Cloud Professional
+          </p>
         </section>
       </main>
 

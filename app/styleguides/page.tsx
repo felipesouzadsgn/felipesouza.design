@@ -370,6 +370,28 @@ const StyleguidesPage = () => {
             <p className="text-gray-500 text-sm max-w-xs">
               Designer & Developer criando experiências digitais imersivas.
             </p>
+            <p className="text-gray-500 text-xs max-w-sm">
+              Para hospedar seus projetos com performance e CDN global,
+              recomendo uma stack que escala com você.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-3">
+              <a
+                href="https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_premium&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-9e17-73ea-939c-b98b535e64f9"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white transition-all text-sm font-medium"
+              >
+                Premium
+              </a>
+              <a
+                href="https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white text-black text-sm font-semibold hover:bg-gray-200 transition-colors"
+              >
+                Business
+              </a>
+            </div>
             <a
               href="/"
               className="group flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white transition-all duration-300 text-sm font-medium"
