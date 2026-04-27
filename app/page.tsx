@@ -195,7 +195,7 @@ const LinksPage = () => {
             readTime: "14 min",
             tag: "Dev",
             image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
-            href: "#blog",
+            href: "/blog/agente-autonomo-kimi-openclaw-2026",
             affiliate: { label: "VPS para Agentes", href: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e" }
         },
         {
@@ -205,7 +205,7 @@ const LinksPage = () => {
             readTime: "10 min",
             tag: "No-Code",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
-            href: "#blog",
+            href: "/blog/framer-ia-landing-pages-2026",
             affiliate: { label: "Framer + IA", href: "https://framer.link/fsdsgn" }
         },
         {
@@ -215,7 +215,7 @@ const LinksPage = () => {
             readTime: "11 min",
             tag: "DevOps",
             image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
-            href: "#blog",
+            href: "/blog/pipeline-cicd-ia-2026",
             affiliate: { label: "VPS para CI/CD", href: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e" }
         },
         {
@@ -225,7 +225,7 @@ const LinksPage = () => {
             readTime: "9 min",
             tag: "Negócios",
             image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop",
-            href: "#blog",
+            href: "/blog/monetizar-prompts-ia-2026",
             affiliate: { label: "Hospedagem para Produtos", href: "https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b" }
         }
     ];
