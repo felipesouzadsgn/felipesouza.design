@@ -26,7 +26,10 @@ import {
     FlaskConical,
     Paintbrush,
     LayoutGrid,
-    Wand2
+    Wand2,
+    Send,
+    Hash,
+    Users
 } from 'lucide-react';
 
 const LinksPage = () => {
@@ -65,7 +68,7 @@ const LinksPage = () => {
     ];
 
     const rightNavLinks = [
-        { label: "Blog", href: "#blog" },
+        { label: "Blog", href: "/blog" },
         { label: "Projetos", href: "#projetos" },
     ];
 
@@ -820,6 +823,121 @@ const LinksPage = () => {
                                 </div>
                             </a>
                         ))}
+                    </div>
+
+                    {/* Ver todos os artigos */}
+                    <div className="mt-6 text-center">
+                        <a
+                            href="/blog"
+                            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white transition-all text-sm font-medium"
+                        >
+                            Ver todos os artigos <ArrowRight size={14} />
+                        </a>
+                    </div>
+                </div>
+
+                {/* Newsletter */}
+                <div id="newsletter" className="w-full max-w-md mb-16 scroll-mt-32">
+                    <div className="rounded-2xl border border-white/10 backdrop-blur-2xl bg-white/5 p-6 sm:p-8">
+                        <div className="text-center mb-6">
+                            <div className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/5 border border-white/10 mb-4">
+                                <Send size={18} className="text-white" />
+                            </div>
+                            <h2 className="text-white font-bold text-lg mb-2">
+                                Newsletter
+                            </h2>
+                            <p className="text-gray-500 text-xs leading-relaxed">
+                                Receba toda semana conteudo sobre tecnologia, IA,
+                                empreendedorismo e novidades da comunidade.
+                            </p>
+                        </div>
+
+                        <form
+                            className="flex flex-col gap-2 mb-4"
+                            onSubmit={(e) => e.preventDefault()}
+                        >
+                            <input
+                                type="email"
+                                placeholder="seu@email.com"
+                                className="w-full px-4 py-2.5 rounded-xl bg-black/30 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/20"
+                            />
+                            <button
+                                type="submit"
+                                className="w-full py-2.5 rounded-xl bg-white text-black text-sm font-semibold hover:bg-gray-200 transition-colors"
+                            >
+                                Inscrever
+                            </button>
+                        </form>
+
+                        <div className="flex flex-wrap items-center justify-center gap-2 text-gray-600 text-[10px]">
+                            <span className="flex items-center gap-1">
+                                <Hash size={8} className="text-emerald-400" /> Tecnologia
+                            </span>
+                            <span className="flex items-center gap-1">
+                                <Hash size={8} className="text-emerald-400" /> IA
+                            </span>
+                            <span className="flex items-center gap-1">
+                                <Hash size={8} className="text-emerald-400" /> Empreendedorismo
+                            </span>
+                            <span className="flex items-center gap-1">
+                                <Hash size={8} className="text-emerald-400" /> Comunidade
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Comunidades */}
+                <div id="comunidade" className="w-full max-w-md mb-16 scroll-mt-32">
+                    <h2 className="text-white font-bold text-xl mb-6 flex items-center gap-2">
+                        <Users size={20} className="text-gray-500" />
+                        Comunidades
+                    </h2>
+                    <div className="space-y-3">
+                        <a
+                            href="https://wa.me/5513996432357"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="group flex items-center gap-4 p-4 rounded-2xl border border-white/10 backdrop-blur-2xl bg-white/5 hover:bg-white/10 transition-all"
+                        >
+                            <div className="w-11 h-11 rounded-xl bg-emerald-500/10 flex items-center justify-center border border-emerald-500/20 text-emerald-400">
+                                <MessageSquare size={20} />
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="font-bold text-white text-sm">WhatsApp</h3>
+                                <p className="text-gray-500 text-xs">Networking rapido e oportunidades</p>
+                            </div>
+                            <ArrowUpRight size={16} className="text-gray-500 group-hover:text-white transition-colors" />
+                        </a>
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="group flex items-center gap-4 p-4 rounded-2xl border border-white/10 backdrop-blur-2xl bg-white/5 hover:bg-white/10 transition-all"
+                        >
+                            <div className="w-11 h-11 rounded-xl bg-[#5865F2]/10 flex items-center justify-center border border-[#5865F2]/20 text-[#5865F2]">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="font-bold text-white text-sm">Discord</h3>
+                                <p className="text-gray-500 text-xs">Devs, designers e criadores de IA</p>
+                            </div>
+                            <ArrowUpRight size={16} className="text-gray-500 group-hover:text-white transition-colors" />
+                        </a>
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="group flex items-center gap-4 p-4 rounded-2xl border border-white/10 backdrop-blur-2xl bg-white/5 hover:bg-white/10 transition-all"
+                        >
+                            <div className="w-11 h-11 rounded-xl bg-sky-500/10 flex items-center justify-center border border-sky-500/20 text-sky-400">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="font-bold text-white text-sm">Telegram</h3>
+                                <p className="text-gray-500 text-xs">Conteudo exclusivo e atualizacoes</p>
+                            </div>
+                            <ArrowUpRight size={16} className="text-gray-500 group-hover:text-white transition-colors" />
+                        </a>
                     </div>
                 </div>
 
