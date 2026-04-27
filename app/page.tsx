@@ -22,7 +22,11 @@ import {
     Clock,
     ArrowRight,
     Heart,
-    Server
+    Server,
+    FlaskConical,
+    Paintbrush,
+    LayoutGrid,
+    Wand2
 } from 'lucide-react';
 
 const LinksPage = () => {
@@ -73,10 +77,35 @@ const LinksPage = () => {
             href: "#inicio"
         },
         {
+            icon: <Paintbrush size={24} />,
+            label: "Brandbook",
+            subLabel: "Identidade visual e diretrizes de marca",
+            href: "/brandbook"
+        },
+        {
+            icon: <LayoutGrid size={24} />,
+            label: "Styleguides",
+            subLabel: "Sistema de design e componentes",
+            href: "/styleguides"
+        },
+        {
+            icon: <Wand2 size={24} />,
+            label: "Galeria de Prompts",
+            subLabel: "Prompts otimizados para IA",
+            href: "/prompts"
+        },
+        {
+            icon: <FlaskConical size={24} />,
+            label: "Laboratório",
+            subLabel: "Experimentos e testes interativos",
+            href: "/laboratorio"
+        },
+        {
             icon: <FileText size={24} />,
             label: "Proposta Comercial",
             subLabel: "Landing Pages de Alta Conversão",
-            href: "https://wa.me/5513996432357"
+            href: "https://wa.me/5513996432357",
+            highlight: true
         },
         {
             icon: <MessageSquare size={24} />,
@@ -167,39 +196,43 @@ const LinksPage = () => {
     const blogPosts = [
         {
             title: "Como IA está mudando o design de interfaces em 2025",
-            excerpt: "As ferramentas de inteligência artificial não substituem designers, mas multiplicam sua capacidade de entregar valor.",
+            excerpt: "As ferramentas de inteligência artificial não substituem designers, mas multiplicam sua capacidade de entregar valor. Ainda mais quando combinamos IA generativa com plataformas como Framer para protótipos imersivos.",
             date: "15 Abr 2025",
             readTime: "5 min",
             tag: "Design",
             image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
-            href: "#blog"
+            href: "#blog",
+            affiliate: { label: "Parceiro Framer", href: "https://framer.link/fsdsgn" }
         },
         {
             title: "Do zero ao primeiro cliente com Landing Pages",
-            excerpt: "O passo a passo que usei para construir páginas que convertem visitantes em clientes pagantes.",
+            excerpt: "O passo a passo que usei para construir páginas que convertem visitantes em clientes pagantes. Hospede sua página na Hostinger com domínio grátis e escale com o Método 3P da Orayon.",
             date: "02 Abr 2025",
             readTime: "8 min",
             tag: "Negócios",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
-            href: "#recomendacoes"
+            href: "#recomendacoes",
+            affiliate: { label: "Hostinger", href: "https://www.hostinger.com/br?REFERRALCODE=6KVFELIPESPY" }
         },
         {
             title: "Automação criativa: fluxos que economizam horas",
-            excerpt: "Como construir sistemas automatizados que liberam seu tempo para o que realmente importa: criar.",
+            excerpt: "Como construir sistemas automatizados que liberam seu tempo para o que realmente importa: criar. As ferramentas do Hub AI e Money AI aceleram esse processo de forma inteligente.",
             date: "20 Mar 2025",
             readTime: "6 min",
             tag: "Produtividade",
             image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
-            href: "#recomendacoes"
+            href: "#recomendacoes",
+            affiliate: { label: "Hub AI", href: "https://app.orayon.ai/hub-ai/fs" }
         },
         {
             title: "Construindo uma identidade visual consistente",
-            excerpt: "Por que ter um styleguide próprio faz toda a diferença na percepção de valor da sua marca.",
+            excerpt: "Por que ter um styleguide próprio faz toda a diferença na percepção de valor da sua marca. Veja nosso Brandbook e Styleguide para referências práticas.",
             date: "10 Mar 2025",
             readTime: "7 min",
             tag: "Branding",
             image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop",
-            href: "#blog"
+            href: "/brandbook",
+            affiliate: { label: "Ver Brandbook", href: "/brandbook" }
         }
     ];
 
@@ -692,44 +725,98 @@ const LinksPage = () => {
                         Últimos Artigos
                     </h2>
 
-                    <div className="space-y-4">
-                        {blogPosts.map((post, index) => (
+                    {/* Featured Post */}
+                    <a
+                        href={blogPosts[0].href}
+                        className="group block rounded-2xl border border-white/10 backdrop-blur-2xl overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98] bg-white/5 hover:bg-white/10 mb-4"
+                    >
+                        <div className="relative h-52 overflow-hidden">
+                            <img
+                                src={blogPosts[0].image}
+                                alt={blogPosts[0].title}
+                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+                            <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-gray-300 text-[10px] font-bold border border-white/10">
+                                {blogPosts[0].tag}
+                            </span>
+                            {blogPosts[0].affiliate && (
+                                <span className="absolute top-3 right-3 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-400 text-[10px] font-bold border border-emerald-500/20 backdrop-blur-md">
+                                    {blogPosts[0].affiliate.label}
+                                </span>
+                            )}
+                        </div>
+                        <div className="p-5">
+                            <div className="flex items-center gap-3 text-gray-500 text-[10px] mb-3">
+                                <span className="flex items-center gap-1">
+                                    <Calendar size={10} />
+                                    {blogPosts[0].date}
+                                </span>
+                                <span className="flex items-center gap-1">
+                                    <Clock size={10} />
+                                    {blogPosts[0].readTime} de leitura
+                                </span>
+                            </div>
+                            <h3 className="font-bold text-white text-base leading-tight group-hover:text-gray-100 transition-colors mb-2">
+                                {blogPosts[0].title}
+                            </h3>
+                            <p className="text-xs text-gray-500 group-hover:text-gray-400 transition-colors line-clamp-2 mb-3">
+                                {blogPosts[0].excerpt}
+                            </p>
+                            {blogPosts[0].affiliate && (
+                                <div className="mb-3">
+                                    <a
+                                        href={blogPosts[0].affiliate.href}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        onClick={(e) => e.stopPropagation()}
+                                        className="inline-flex items-center gap-1.5 text-emerald-400 font-medium text-xs hover:text-emerald-300 transition-colors"
+                                    >
+                                        <ArrowUpRight size={12} /> {blogPosts[0].affiliate.label}
+                                    </a>
+                                </div>
+                            )}
+                            <div className="flex items-center gap-1 text-gray-400 font-medium text-xs group-hover:text-white transition-colors">
+                                Ler mais <ArrowRight size={12} />
+                            </div>
+                        </div>
+                    </a>
+
+                    {/* Post List */}
+                    <div className="space-y-3">
+                        {blogPosts.slice(1).map((post, index) => (
                             <a
                                 key={index}
                                 href={post.href}
-                                className="group block rounded-2xl border border-white/10 backdrop-blur-2xl overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98] bg-white/5 hover:bg-white/10"
+                                className="group flex gap-4 p-3 rounded-2xl border border-white/10 backdrop-blur-2xl overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98] bg-white/5 hover:bg-white/10"
                             >
-                                <div className="relative h-40 overflow-hidden">
+                                <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden">
                                     <img
                                         src={post.image}
                                         alt={post.title}
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                                    <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-gray-300 text-[10px] font-bold border border-white/10">
-                                        {post.tag}
-                                    </span>
                                 </div>
-                                <div className="p-4">
-                                    <div className="flex items-center gap-3 text-gray-500 text-[10px] mb-2">
-                                        <span className="flex items-center gap-1">
-                                            <Calendar size={10} />
-                                            {post.date}
+                                <div className="flex-1 min-w-0 py-1">
+                                    <div className="flex items-center gap-2 mb-1.5">
+                                        <span className="px-2 py-0.5 rounded-full bg-white/10 text-gray-300 text-[10px] font-bold border border-white/10">
+                                            {post.tag}
                                         </span>
-                                        <span className="flex items-center gap-1">
-                                            <Clock size={10} />
-                                            {post.readTime} de leitura
+                                        <span className="text-gray-600 text-[10px] flex items-center gap-1">
+                                            <Calendar size={10} /> {post.date}
                                         </span>
                                     </div>
-                                    <h3 className="font-bold text-white text-sm leading-tight group-hover:text-gray-100 transition-colors mb-1">
+                                    <h3 className="font-bold text-white text-sm leading-tight group-hover:text-gray-100 transition-colors mb-1 truncate">
                                         {post.title}
                                     </h3>
-                                    <p className="text-xs text-gray-500 group-hover:text-gray-400 transition-colors line-clamp-2 mb-3">
+                                    <p className="text-xs text-gray-500 group-hover:text-gray-400 transition-colors line-clamp-2 mb-2">
                                         {post.excerpt}
                                     </p>
-                                    <div className="flex items-center gap-1 text-gray-400 font-medium text-xs group-hover:text-white transition-colors">
-                                        Ler mais <ArrowRight size={12} />
-                                    </div>
+                                    {post.affiliate && (
+                                        <span className="inline-flex items-center gap-1 text-emerald-400 text-[10px] font-medium">
+                                            <ArrowUpRight size={10} /> {post.affiliate.label}
+                                        </span>
+                                    )}
                                 </div>
                             </a>
                         ))}
