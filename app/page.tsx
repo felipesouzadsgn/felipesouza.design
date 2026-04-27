@@ -96,6 +96,12 @@ const LinksPage = () => {
             href: "/laboratorio"
         },
         {
+            icon: <LayoutGrid size={24} />,
+            label: "Templates Framer",
+            subLabel: "Templates free e premium ($3-$18)",
+            href: "/templates"
+        },
+        {
             icon: <Linkedin size={24} />,
             label: "LinkedIn",
             subLabel: "Conecte-se comigo",
