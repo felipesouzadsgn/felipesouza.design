@@ -71,22 +71,17 @@ const LinksPage = () => {
 
     const links = [
         {
-            icon: <Globe size={24} />,
-            label: "Portfolio Oficial",
-            subLabel: "Ver meus projetos recentes",
-            href: "#inicio"
+            icon: <FileText size={24} />,
+            label: "Proposta Comercial",
+            subLabel: "Landing Pages de Alta Conversão",
+            href: "https://wa.me/5513996432357",
+            highlight: true
         },
         {
-            icon: <Paintbrush size={24} />,
-            label: "Brandbook",
-            subLabel: "Identidade visual e diretrizes de marca",
-            href: "/brandbook"
-        },
-        {
-            icon: <LayoutGrid size={24} />,
-            label: "Styleguides",
-            subLabel: "Sistema de design e componentes",
-            href: "/styleguides"
+            icon: <MessageSquare size={24} />,
+            label: "WhatsApp",
+            subLabel: "Vamos fechar um projeto?",
+            href: "https://wa.me/5513996432357"
         },
         {
             icon: <Wand2 size={24} />,
@@ -99,19 +94,6 @@ const LinksPage = () => {
             label: "Laboratório",
             subLabel: "Experimentos e testes interativos",
             href: "/laboratorio"
-        },
-        {
-            icon: <FileText size={24} />,
-            label: "Proposta Comercial",
-            subLabel: "Landing Pages de Alta Conversão",
-            href: "https://wa.me/5513996432357",
-            highlight: true
-        },
-        {
-            icon: <MessageSquare size={24} />,
-            label: "WhatsApp",
-            subLabel: "Vamos fechar um projeto?",
-            href: "https://wa.me/5513996432357"
         },
         {
             icon: <Linkedin size={24} />,
@@ -130,6 +112,18 @@ const LinksPage = () => {
             label: "Instagram",
             subLabel: "Bastidores e Design",
             href: "https://instagram.com/felipesouzadsgn"
+        },
+        {
+            icon: <Paintbrush size={24} />,
+            label: "Brandbook",
+            subLabel: "Identidade visual e diretrizes de marca",
+            href: "/brandbook"
+        },
+        {
+            icon: <LayoutGrid size={24} />,
+            label: "Styleguides",
+            subLabel: "Sistema de design e componentes",
+            href: "/styleguides"
         }
     ];
 
@@ -195,44 +189,44 @@ const LinksPage = () => {
 
     const blogPosts = [
         {
-            title: "Como IA está mudando o design de interfaces em 2025",
-            excerpt: "As ferramentas de inteligência artificial não substituem designers, mas multiplicam sua capacidade de entregar valor. Ainda mais quando combinamos IA generativa com plataformas como Framer para protótipos imersivos.",
-            date: "15 Abr 2025",
-            readTime: "5 min",
-            tag: "Design",
+            title: "Como Deployar um Agente de IA em Produção: Guia Completo 2026",
+            excerpt: "Rodar agentes de IA localmente é fácil. Colocá-los em produção com latência baixa e uptime garantido é outra história. Neste guia, mostro como configurei um servidor com Kimi, OpenClaw e GPT para responder clientes 24/7. Para rodar isso em produção, use uma infraestrutura confiável como um VPS próprio.\n\nStack recomendada: Iniciante → Hostinger Premium | Profissional → VPS KVM 2 | Escala → Cloud Professional",
+            date: "22 Abr 2026",
+            readTime: "12 min",
+            tag: "Dev",
             image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
             href: "#blog",
-            affiliate: { label: "Parceiro Framer", href: "https://framer.link/fsdsgn" }
+            affiliate: { label: "VPS KVM 2", href: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf53-d52f-71ae-9a87-07f6a0b59c3e" }
         },
         {
-            title: "Do zero ao primeiro cliente com Landing Pages",
-            excerpt: "O passo a passo que usei para construir páginas que convertem visitantes em clientes pagantes. Hospede sua página na Hostinger com domínio grátis e escale com o Método 3P da Orayon.",
-            date: "02 Abr 2025",
-            readTime: "8 min",
-            tag: "Negócios",
+            title: "Por que Todo Freelancer No-Code Precisa de Infra Própria",
+            excerpt: "Dependência de plataformas de terceiros é um risco oculto. Quando seu cliente precisa de uma landing page rápida ou um workflow customizado, ter um servidor próprio te dá liberdade total. Montei uma stack no Framer + Hostinger Cloud que roda sites de alta conversão sem depender de ninguém.\n\nStack recomendada: Iniciante → Business Hosting | Profissional → Cloud Professional | Escala → VPS KVM 4",
+            date: "15 Abr 2026",
+            readTime: "9 min",
+            tag: "No-Code",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
-            href: "#recomendacoes",
-            affiliate: { label: "Hostinger", href: "https://www.hostinger.com/br?REFERRALCODE=6KVFELIPESPY" }
+            href: "#blog",
+            affiliate: { label: "Cloud Professional", href: "https://www.hostinger.com/br/cart?product=hosting%3Acloud_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-23b9-7163-9984-1e590182a132" }
         },
         {
-            title: "Automação criativa: fluxos que economizam horas",
-            excerpt: "Como construir sistemas automatizados que liberam seu tempo para o que realmente importa: criar. As ferramentas do Hub AI e Money AI aceleram esse processo de forma inteligente.",
-            date: "20 Mar 2025",
-            readTime: "6 min",
+            title: "Automação Criativa: Como Economizei 12h na Semana com Agentes",
+            excerpt: "Criei um fluxo que conecta Kimi, Claude e GPT em uma pipeline automática: resumo de reuniões, geração de copy, criação de imagens e postagem em redes sociais. O gargalo era a infraestrutura. Migrar para um Business Hosting com SSL e CDN inclusos resolveu a latência e deixou tudo estável.\n\nStack recomendada: Iniciante → Premium | Profissional → Business Hosting | Escala → Cloud Startup",
+            date: "08 Abr 2026",
+            readTime: "7 min",
             tag: "Produtividade",
             image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
-            href: "#recomendacoes",
-            affiliate: { label: "Hub AI", href: "https://app.orayon.ai/hub-ai/fs" }
+            href: "#blog",
+            affiliate: { label: "Business Hosting", href: "https://www.hostinger.com/br/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf50-3cda-7140-8887-daf1aee8032b" }
         },
         {
-            title: "Construindo uma identidade visual consistente",
-            excerpt: "Por que ter um styleguide próprio faz toda a diferença na percepção de valor da sua marca. Veja nosso Brandbook e Styleguide para referências práticas.",
-            date: "10 Mar 2025",
-            readTime: "7 min",
-            tag: "Branding",
+            title: "Como Escalar uma Agência Digital sem Quebrar a Infraestrutura",
+            excerpt: "Crescer de 2 para 15 clientes em 6 meses trouxe um problema inesperado: a hospedagem não aguentava. Sites lentos, e-mail caindo no spam e backups falhando. A solução foi migrar tudo para uma estrutura de agência profissional com múltiplos sites, e-mail corporativo e backups automáticos.\n\nStack recomendada: Startup → Agency Startup | Profissional → Agency Professional | Escala → Agency Growth",
+            date: "01 Abr 2026",
+            readTime: "10 min",
+            tag: "Negócios",
             image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop",
-            href: "/brandbook",
-            affiliate: { label: "Ver Brandbook", href: "/brandbook" }
+            href: "#blog",
+            affiliate: { label: "Agency Professional", href: "https://www.hostinger.com/br/cart?product=hosting%3Aagency_professional&period=12&referral_type=cart_link&REFERRALCODE=6KVFELIPESPY&referral_id=019dcf52-e135-7386-8dfd-261185214643" }
         }
     ];
 

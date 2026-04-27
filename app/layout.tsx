@@ -29,11 +29,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Felipe Souza | Design Estratégico & IA",
+    default: "Felipe Souza | Dev, IA & Automação",
     template: "%s | Felipe Souza",
   },
-  description: "Especialista em design, websites, social media e branding estratégico. Desenvolva posicionamento forte e resultados reais com marketing digital e Inteligência Artificial.",
-  keywords: ["design", "web design", "branding", "IA", "inteligência artificial", "landing pages", "UI/UX", "Felipe Souza", "Santos", "São Paulo"],
+  description: "Especialista em desenvolvimento, agentes de IA, automação, no-code e infraestrutura para criadores digitais. Guias práticos, prompts e ferramentas para escalar projetos com inteligência artificial.",
+  keywords: ["dev", "IA", "inteligência artificial", "agentes de IA", "OpenClaw", "Kimi", "GPT", "Claude", "automação", "no-code", "VPS", "hosting", "landing pages", "Felipe Souza", "Santos", "São Paulo"],
   authors: [{ name: "Felipe Souza", url: "https://instagram.com/felipesouzadsgn" }],
   creator: "Felipe Souza",
   metadataBase: new URL("https://felipesouza-dsgn.vercel.app"),
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: "/",
     siteName: "Felipe Souza | Design Estratégico & IA",
-    title: "Felipe Souza | Design Estratégico & IA",
-    description: "Especialista em design, websites, social media e branding estratégico. Desenvolva posicionamento forte e resultados reais com marketing digital e Inteligência Artificial.",
+    title: "Felipe Souza | Dev, IA & Automação",
+    description: "Especialista em desenvolvimento, agentes de IA, automação, no-code e infraestrutura para criadores digitais. Guias práticos, prompts e ferramentas para escalar projetos com inteligência artificial.",
     images: [{
       url: "/assets/fs-logo.svg",
       width: 1200,
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Felipe Souza | Design Estratégico & IA",
-    description: "Especialista em design, websites, social media e branding estratégico.",
+    title: "Felipe Souza | Dev, IA & Automação",
+    description: "Especialista em desenvolvimento, agentes de IA, automação e no-code.",
     images: ["/assets/fs-logo.svg"],
   },
   robots: {

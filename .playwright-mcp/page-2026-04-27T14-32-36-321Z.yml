@@ -1,0 +1,33 @@
+- main [ref=e2]:
+  - heading "Index of .next/" [level=1] [ref=e4]:
+    - text: Index of
+    - link ".next/" [ref=e5] [cursor=pointer]:
+      - /url: /
+  - list [ref=e6]:
+    - listitem [ref=e7]:
+      - link "app-build-manifest.json" [ref=e8] [cursor=pointer]:
+        - /url: \app-build-manifest.json
+    - listitem [ref=e9]:
+      - link "build-manifest.json" [ref=e10] [cursor=pointer]:
+        - /url: \build-manifest.json
+    - listitem [ref=e11]:
+      - link "cache/" [ref=e12] [cursor=pointer]:
+        - /url: \cache/
+    - listitem [ref=e13]:
+      - link "package.json" [ref=e14] [cursor=pointer]:
+        - /url: \package.json
+    - listitem [ref=e15]:
+      - link "react-loadable-manifest.json" [ref=e16] [cursor=pointer]:
+        - /url: \react-loadable-manifest.json
+    - listitem [ref=e17]:
+      - link "server/" [ref=e18] [cursor=pointer]:
+        - /url: \server/
+    - listitem [ref=e19]:
+      - link "static/" [ref=e20] [cursor=pointer]:
+        - /url: \static/
+    - listitem [ref=e21]:
+      - link "trace" [ref=e22] [cursor=pointer]:
+        - /url: \trace
+    - listitem [ref=e23]:
+      - link "types/" [ref=e24] [cursor=pointer]:
+        - /url: \types/

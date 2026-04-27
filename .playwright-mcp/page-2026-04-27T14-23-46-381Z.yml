@@ -1,0 +1,339 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Início" [ref=e7] [cursor=pointer]:
+          - /url: "#inicio"
+        - link "Links" [ref=e8] [cursor=pointer]:
+          - /url: "#links"
+      - link "FS Logo" [ref=e9] [cursor=pointer]:
+        - /url: "#inicio"
+        - img "FS Logo" [ref=e11]
+      - generic [ref=e12]:
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: "#blog"
+        - link "Projetos" [ref=e14] [cursor=pointer]:
+          - /url: "#projetos"
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - img "Felipe Souza" [ref=e20]
+        - img [ref=e22]
+      - heading "Felipe Souza" [level=1] [ref=e25]
+      - paragraph [ref=e26]: Designer & Developer criando experiências digitais imersivas.
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - generic [ref=e32]:
+            - generic [ref=e33]: Santos, SP
+            - generic [ref=e34]: Brasil
+        - generic [ref=e35]:
+          - img [ref=e36]
+          - generic [ref=e40]:
+            - generic [ref=e41]: Ouvindo
+            - generic [ref=e42]: Lo-Fi Beats
+    - generic [ref=e43]:
+      - link "Framer Parceiro Framer A ferramenta no-code mais poderosa. Testar Grátis" [ref=e44] [cursor=pointer]:
+        - /url: https://framer.link/fsdsgn
+        - img "Framer" [ref=e46]
+        - generic [ref=e48]:
+          - generic [ref=e50]: Parceiro
+          - heading "Framer" [level=3] [ref=e51]
+          - paragraph [ref=e52]: A ferramenta no-code mais poderosa.
+          - generic [ref=e53]:
+            - text: Testar Grátis
+            - img [ref=e54]
+      - link "Indicação Hostinger Hospedagem rápida, segura e confiável. Domínio grátis + e-mail profissional. Ganhe 20% de desconto" [ref=e57] [cursor=pointer]:
+        - /url: https://www.hostinger.com/br?REFERRALCODE=6KVFELIPESPY
+        - generic [ref=e61]:
+          - generic [ref=e63]: Indicação
+          - heading "Hostinger" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Hospedagem rápida, segura e confiável. Domínio grátis + e-mail profissional.
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - text: Ganhe 20% de desconto
+            - img [ref=e70]
+      - link "Templates Recursos Templates Templates premium para acelerar. Ver Coleção" [ref=e73] [cursor=pointer]:
+        - /url: https://framer.com/templates
+        - img "Templates" [ref=e75]
+        - generic [ref=e77]:
+          - generic [ref=e79]: Recursos
+          - heading "Templates" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Templates premium para acelerar.
+          - generic [ref=e82]:
+            - text: Ver Coleção
+            - img [ref=e83]
+      - link "Behance Portfolio Behance Estudos de caso detalhados. Seguir" [ref=e86] [cursor=pointer]:
+        - /url: https://www.behance.net/felipesouzadsgn
+        - img "Behance" [ref=e88]
+        - generic [ref=e90]:
+          - generic [ref=e92]: Portfolio
+          - heading "Behance" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Estudos de caso detalhados.
+          - generic [ref=e95]:
+            - text: Seguir
+            - img [ref=e96]
+      - link "BlackSheep Comunidade BlackSheep O clube mais exclusivo. Saiba Mais" [ref=e99] [cursor=pointer]:
+        - /url: "#"
+        - img "BlackSheep" [ref=e101]
+        - generic [ref=e103]:
+          - generic [ref=e105]: Comunidade
+          - heading "BlackSheep" [level=3] [ref=e106]
+          - paragraph [ref=e107]: O clube mais exclusivo.
+          - generic [ref=e108]:
+            - text: Saiba Mais
+            - img [ref=e109]
+    - generic [ref=e112]:
+      - link "Portfolio Oficial Ver meus projetos recentes" [ref=e113] [cursor=pointer]:
+        - /url: "#inicio"
+        - img [ref=e115]
+        - generic [ref=e118]:
+          - heading "Portfolio Oficial" [level=3] [ref=e119]
+          - paragraph [ref=e120]: Ver meus projetos recentes
+        - img [ref=e122]
+      - link "Brandbook Identidade visual e diretrizes de marca" [ref=e125] [cursor=pointer]:
+        - /url: /brandbook
+        - img [ref=e127]
+        - generic [ref=e131]:
+          - heading "Brandbook" [level=3] [ref=e132]
+          - paragraph [ref=e133]: Identidade visual e diretrizes de marca
+        - img [ref=e135]
+      - link "Styleguides Sistema de design e componentes" [ref=e138] [cursor=pointer]:
+        - /url: /styleguides
+        - img [ref=e140]
+        - generic [ref=e145]:
+          - heading "Styleguides" [level=3] [ref=e146]
+          - paragraph [ref=e147]: Sistema de design e componentes
+        - img [ref=e149]
+      - link "Galeria de Prompts Prompts otimizados para IA" [ref=e152] [cursor=pointer]:
+        - /url: /prompts
+        - img [ref=e154]
+        - generic [ref=e157]:
+          - heading "Galeria de Prompts" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Prompts otimizados para IA
+        - img [ref=e161]
+      - link "Laboratório Experimentos e testes interativos" [ref=e164] [cursor=pointer]:
+        - /url: /laboratorio
+        - img [ref=e166]
+        - generic [ref=e168]:
+          - heading "Laboratório" [level=3] [ref=e169]
+          - paragraph [ref=e170]: Experimentos e testes interativos
+        - img [ref=e172]
+      - link "Proposta Comercial Landing Pages de Alta Conversão" [ref=e175] [cursor=pointer]:
+        - /url: https://wa.me/5513996432357
+        - img [ref=e177]
+        - generic [ref=e180]:
+          - heading "Proposta Comercial" [level=3] [ref=e181]
+          - paragraph [ref=e182]: Landing Pages de Alta Conversão
+        - img [ref=e184]
+      - link "WhatsApp Vamos fechar um projeto?" [ref=e187] [cursor=pointer]:
+        - /url: https://wa.me/5513996432357
+        - img [ref=e189]
+        - generic [ref=e191]:
+          - heading "WhatsApp" [level=3] [ref=e192]
+          - paragraph [ref=e193]: Vamos fechar um projeto?
+        - img [ref=e195]
+      - link "LinkedIn Conecte-se comigo" [ref=e198] [cursor=pointer]:
+        - /url: https://linkedin.com/in/felipesouzadsgn
+        - img [ref=e200]
+        - generic [ref=e204]:
+          - heading "LinkedIn" [level=3] [ref=e205]
+          - paragraph [ref=e206]: Conecte-se comigo
+        - img [ref=e208]
+      - link "GitHub Veja meu código" [ref=e211] [cursor=pointer]:
+        - /url: https://github.com/felipesouzadsgn
+        - img [ref=e213]
+        - generic [ref=e216]:
+          - heading "GitHub" [level=3] [ref=e217]
+          - paragraph [ref=e218]: Veja meu código
+        - img [ref=e220]
+      - link "Instagram Bastidores e Design" [ref=e223] [cursor=pointer]:
+        - /url: https://instagram.com/felipesouzadsgn
+        - img [ref=e225]
+        - generic [ref=e228]:
+          - heading "Instagram" [level=3] [ref=e229]
+          - paragraph [ref=e230]: Bastidores e Design
+        - img [ref=e232]
+    - generic [ref=e235]:
+      - heading "Recomendações" [level=2] [ref=e237]:
+        - img [ref=e238]
+        - text: Recomendações
+      - paragraph [ref=e240]: Ferramentas e recursos que uso no dia a dia
+      - generic [ref=e241]:
+        - generic [ref=e242]: Métodos
+        - generic [ref=e243]:
+          - link "Método 3P — Escala com IA Gratuito Estratégia completa para crescer com inteligência artificial" [ref=e244] [cursor=pointer]:
+            - /url: https://app.orayon.ai/fs
+            - img [ref=e246]
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - heading "Método 3P — Escala com IA" [level=3] [ref=e250]
+                - generic [ref=e251]: Gratuito
+              - paragraph [ref=e252]: Estratégia completa para crescer com inteligência artificial
+            - img [ref=e254]
+          - link "Franquia Digital Modelo de negócio replicável e escalável" [ref=e257] [cursor=pointer]:
+            - /url: https://app.orayon.ai/franquiadigital/fs
+            - img [ref=e259]
+            - generic [ref=e261]:
+              - heading "Franquia Digital" [level=3] [ref=e263]
+              - paragraph [ref=e264]: Modelo de negócio replicável e escalável
+            - img [ref=e266]
+          - link "Código Residual Construindo fontes de renda passiva com tecnologia" [ref=e269] [cursor=pointer]:
+            - /url: https://app.orayon.ai/codigoresidual/fs
+            - img [ref=e271]
+            - generic [ref=e273]:
+              - heading "Código Residual" [level=3] [ref=e275]
+              - paragraph [ref=e276]: Construindo fontes de renda passiva com tecnologia
+            - img [ref=e278]
+      - generic [ref=e281]:
+        - generic [ref=e282]: Gratuitos
+        - link "Start AI Gratuito Primeiros passos práticos com inteligência artificial" [ref=e284] [cursor=pointer]:
+          - /url: https://app.orayon.ai/start-ai/fs
+          - img [ref=e286]
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - heading "Start AI" [level=3] [ref=e292]
+              - generic [ref=e293]: Gratuito
+            - paragraph [ref=e294]: Primeiros passos práticos com inteligência artificial
+          - img [ref=e296]
+      - generic [ref=e299]:
+        - generic [ref=e300]: Ferramentas
+        - generic [ref=e301]:
+          - link "Hub AI Central de automação para produtividade" [ref=e302] [cursor=pointer]:
+            - /url: https://app.orayon.ai/hub-ai/fs
+            - img [ref=e304]
+            - generic [ref=e307]:
+              - heading "Hub AI" [level=3] [ref=e309]
+              - paragraph [ref=e310]: Central de automação para produtividade
+            - img [ref=e312]
+          - link "Money AI Monetização inteligente com automação" [ref=e315] [cursor=pointer]:
+            - /url: https://app.orayon.ai/money-ai/fs
+            - img [ref=e317]
+            - generic [ref=e320]:
+              - heading "Money AI" [level=3] [ref=e322]
+              - paragraph [ref=e323]: Monetização inteligente com automação
+            - img [ref=e325]
+    - generic [ref=e328]:
+      - heading "Últimos Artigos" [level=2] [ref=e329]:
+        - img [ref=e330]
+        - text: Últimos Artigos
+      - link "Como IA está mudando o design de interfaces em 2025 Design Parceiro Framer" [ref=e332] [cursor=pointer]:
+        - /url: "#blog"
+        - generic [ref=e333]:
+          - img "Como IA está mudando o design de interfaces em 2025" [ref=e334]
+          - generic [ref=e336]: Design
+          - generic [ref=e337]: Parceiro Framer
+      - generic [ref=e338]:
+        - link "15 Abr 2025 5 min de leitura Como IA está mudando o design de interfaces em 2025 As ferramentas de inteligência artificial não substituem designers, mas multiplicam sua capacidade de entregar valor. Ainda mais quando combinamos IA generativa com plataformas como Framer para protótipos imersivos." [ref=e339] [cursor=pointer]:
+          - /url: "#blog"
+          - generic [ref=e340]:
+            - generic [ref=e341]:
+              - img [ref=e342]
+              - text: 15 Abr 2025
+            - generic [ref=e344]:
+              - img [ref=e345]
+              - text: 5 min de leitura
+          - heading "Como IA está mudando o design de interfaces em 2025" [level=3] [ref=e348]
+          - paragraph [ref=e349]: As ferramentas de inteligência artificial não substituem designers, mas multiplicam sua capacidade de entregar valor. Ainda mais quando combinamos IA generativa com plataformas como Framer para protótipos imersivos.
+        - generic [ref=e350]:
+          - link [ref=e351] [cursor=pointer]:
+            - /url: "#blog"
+          - link "Parceiro Framer" [ref=e352] [cursor=pointer]:
+            - /url: https://framer.link/fsdsgn
+            - img [ref=e353]
+            - text: Parceiro Framer
+        - generic [ref=e356]:
+          - text: Ler mais
+          - img [ref=e357]
+      - generic [ref=e359]:
+        - link "Do zero ao primeiro cliente com Landing Pages Negócios 02 Abr 2025 Do zero ao primeiro cliente com Landing Pages O passo a passo que usei para construir páginas que convertem visitantes em clientes pagantes. Hospede sua página na Hostinger com domínio grátis e escale com o Método 3P da Orayon. Hostinger" [ref=e360] [cursor=pointer]:
+          - /url: "#recomendacoes"
+          - img "Do zero ao primeiro cliente com Landing Pages" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - generic [ref=e365]: Negócios
+              - generic [ref=e366]:
+                - img [ref=e367]
+                - text: 02 Abr 2025
+            - heading "Do zero ao primeiro cliente com Landing Pages" [level=3] [ref=e369]
+            - paragraph [ref=e370]: O passo a passo que usei para construir páginas que convertem visitantes em clientes pagantes. Hospede sua página na Hostinger com domínio grátis e escale com o Método 3P da Orayon.
+            - generic [ref=e371]:
+              - img [ref=e372]
+              - text: Hostinger
+        - 'link "Automação criativa: fluxos que economizam horas Produtividade 20 Mar 2025 Automação criativa: fluxos que economizam horas Como construir sistemas automatizados que liberam seu tempo para o que realmente importa: criar. As ferramentas do Hub AI e Money AI aceleram esse processo de forma inteligente. Hub AI" [ref=e375] [cursor=pointer]':
+          - /url: "#recomendacoes"
+          - 'img "Automação criativa: fluxos que economizam horas" [ref=e377]'
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - generic [ref=e380]: Produtividade
+              - generic [ref=e381]:
+                - img [ref=e382]
+                - text: 20 Mar 2025
+            - 'heading "Automação criativa: fluxos que economizam horas" [level=3] [ref=e384]'
+            - paragraph [ref=e385]: "Como construir sistemas automatizados que liberam seu tempo para o que realmente importa: criar. As ferramentas do Hub AI e Money AI aceleram esse processo de forma inteligente."
+            - generic [ref=e386]:
+              - img [ref=e387]
+              - text: Hub AI
+        - link "Construindo uma identidade visual consistente Branding 10 Mar 2025 Construindo uma identidade visual consistente Por que ter um styleguide próprio faz toda a diferença na percepção de valor da sua marca. Veja nosso Brandbook e Styleguide para referências práticas. Ver Brandbook" [ref=e390] [cursor=pointer]:
+          - /url: /brandbook
+          - img "Construindo uma identidade visual consistente" [ref=e392]
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - generic [ref=e395]: Branding
+              - generic [ref=e396]:
+                - img [ref=e397]
+                - text: 10 Mar 2025
+            - heading "Construindo uma identidade visual consistente" [level=3] [ref=e399]
+            - paragraph [ref=e400]: Por que ter um styleguide próprio faz toda a diferença na percepção de valor da sua marca. Veja nosso Brandbook e Styleguide para referências práticas.
+            - generic [ref=e401]:
+              - img [ref=e402]
+              - text: Ver Brandbook
+    - generic [ref=e405]:
+      - heading "Projetos Recentes" [level=2] [ref=e406]:
+        - img [ref=e407]
+        - text: Projetos Recentes
+      - generic [ref=e410]:
+        - generic [ref=e411]:
+          - img "Project 1" [ref=e412]
+          - generic [ref=e414]:
+            - generic [ref=e415]: UI Design
+            - heading "Neon Bank App" [level=3] [ref=e416]
+        - generic [ref=e417]:
+          - img "Project 2" [ref=e418]
+          - heading "Arkitect" [level=3] [ref=e421]
+        - generic [ref=e422]:
+          - img "Project 3" [ref=e423]
+          - heading "HealthAI" [level=3] [ref=e426]
+        - generic [ref=e427]:
+          - img "Project 4" [ref=e428]
+          - generic [ref=e430]:
+            - generic [ref=e431]: Web Dev
+            - heading "TechFlow SaaS" [level=3] [ref=e432]
+  - contentinfo [ref=e433]:
+    - generic [ref=e435]:
+      - img "FS Logo" [ref=e437]
+      - paragraph [ref=e438]: Designer & Developer criando experiências digitais imersivas.
+      - generic [ref=e439]:
+        - link "@felipesouzadsgn" [ref=e440] [cursor=pointer]:
+          - /url: https://instagram.com/felipesouzadsgn
+          - img [ref=e441]
+          - generic [ref=e444]: "@felipesouzadsgn"
+        - link "@felipesouza.ia" [ref=e445] [cursor=pointer]:
+          - /url: https://instagram.com/felipesouza.ia
+          - img [ref=e446]
+          - generic [ref=e449]: "@felipesouza.ia"
+        - link "LinkedIn" [ref=e450] [cursor=pointer]:
+          - /url: https://linkedin.com/in/felipesouzadsgn
+          - img [ref=e451]
+          - generic [ref=e455]: LinkedIn
+        - link "GitHub" [ref=e456] [cursor=pointer]:
+          - /url: https://github.com/felipesouzadsgn
+          - img [ref=e457]
+          - generic [ref=e460]: GitHub
+      - generic [ref=e462]:
+        - paragraph [ref=e463]: © 2025 Felipe Souza. Todos os direitos reservados.
+        - generic [ref=e464]:
+          - link "Privacidade" [ref=e465] [cursor=pointer]:
+            - /url: "#"
+          - link "Termos" [ref=e466] [cursor=pointer]:
+            - /url: "#"
