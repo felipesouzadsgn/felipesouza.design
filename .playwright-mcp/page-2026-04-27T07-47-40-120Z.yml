@@ -1,0 +1,183 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "Felipe Souza" [ref=e8]
+        - img [ref=e10]
+      - heading "Felipe Souza" [level=1] [ref=e13]
+      - paragraph [ref=e14]: Designer & Developer criando experiências digitais imersivas.
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - img [ref=e17]
+          - generic [ref=e20]:
+            - generic [ref=e21]: Santos, SP
+            - generic [ref=e22]: Brasil
+        - generic [ref=e23]:
+          - img [ref=e24]
+          - generic [ref=e28]:
+            - generic [ref=e29]: Ouvindo
+            - generic [ref=e30]: Lo-Fi Beats
+    - generic [ref=e31]:
+      - link "Framer Parceiro Framer A ferramenta no-code mais poderosa. Testar Grátis" [ref=e32] [cursor=pointer]:
+        - /url: https://framer.link/fsdsgn
+        - img "Framer" [ref=e34]
+        - generic [ref=e36]:
+          - generic [ref=e38]: Parceiro
+          - heading "Framer" [level=3] [ref=e39]
+          - paragraph [ref=e40]: A ferramenta no-code mais poderosa.
+          - generic [ref=e41]:
+            - text: Testar Grátis
+            - img [ref=e42]
+      - link "Templates Recursos Templates Templates premium para acelerar. Ver Coleção" [ref=e45] [cursor=pointer]:
+        - /url: https://framer.com/templates
+        - img "Templates" [ref=e47]
+        - generic [ref=e49]:
+          - generic [ref=e51]: Recursos
+          - heading "Templates" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Templates premium para acelerar.
+          - generic [ref=e54]:
+            - text: Ver Coleção
+            - img [ref=e55]
+      - link "Behance Portfolio Behance Estudos de caso detalhados. Seguir" [ref=e58] [cursor=pointer]:
+        - /url: https://www.behance.net/felipesouzadsgn
+        - img "Behance" [ref=e60]
+        - generic [ref=e62]:
+          - generic [ref=e64]: Portfolio
+          - heading "Behance" [level=3] [ref=e65]
+          - paragraph [ref=e66]: Estudos de caso detalhados.
+          - generic [ref=e67]:
+            - text: Seguir
+            - img [ref=e68]
+      - link "BlackSheep Comunidade BlackSheep O clube mais exclusivo. Saiba Mais" [ref=e71] [cursor=pointer]:
+        - /url: "#"
+        - img "BlackSheep" [ref=e73]
+        - generic [ref=e75]:
+          - generic [ref=e77]: Comunidade
+          - heading "BlackSheep" [level=3] [ref=e78]
+          - paragraph [ref=e79]: O clube mais exclusivo.
+          - generic [ref=e80]:
+            - text: Saiba Mais
+            - img [ref=e81]
+    - generic [ref=e84]:
+      - link "Portfolio Oficial Ver meus projetos recentes" [ref=e85] [cursor=pointer]:
+        - /url: /
+        - img [ref=e87]
+        - generic [ref=e90]:
+          - heading "Portfolio Oficial" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Ver meus projetos recentes
+        - img [ref=e94]
+      - link "Proposta Comercial Landing Pages de Alta Conversão" [ref=e97] [cursor=pointer]:
+        - /url: /proposta
+        - img [ref=e99]
+        - generic [ref=e102]:
+          - heading "Proposta Comercial" [level=3] [ref=e103]
+          - paragraph [ref=e104]: Landing Pages de Alta Conversão
+        - img [ref=e106]
+      - link "WhatsApp Vamos fechar um projeto?" [ref=e109] [cursor=pointer]:
+        - /url: https://wa.me/5513996432357
+        - img [ref=e111]
+        - generic [ref=e113]:
+          - heading "WhatsApp" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Vamos fechar um projeto?
+        - img [ref=e117]
+      - link "LinkedIn Conecte-se comigo" [ref=e120] [cursor=pointer]:
+        - /url: https://linkedin.com/in/felipesouzadsgn
+        - img [ref=e122]
+        - generic [ref=e126]:
+          - heading "LinkedIn" [level=3] [ref=e127]
+          - paragraph [ref=e128]: Conecte-se comigo
+        - img [ref=e130]
+      - link "GitHub Veja meu código" [ref=e133] [cursor=pointer]:
+        - /url: https://github.com/felipesouzadsgn
+        - img [ref=e135]
+        - generic [ref=e138]:
+          - heading "GitHub" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Veja meu código
+        - img [ref=e142]
+      - link "Instagram Bastidores e Design" [ref=e145] [cursor=pointer]:
+        - /url: https://instagram.com/felipesouzadsgn
+        - img [ref=e147]
+        - generic [ref=e150]:
+          - heading "Instagram" [level=3] [ref=e151]
+          - paragraph [ref=e152]: Bastidores e Design
+        - img [ref=e154]
+    - generic [ref=e157]:
+      - heading "Recursos Exclusivos" [level=2] [ref=e158]:
+        - img [ref=e159]
+        - text: Recursos Exclusivos
+      - generic [ref=e163]:
+        - generic [ref=e164]: Aquisição Franqueado
+        - generic [ref=e165]:
+          - link "Aula Gratuita (VSL) Grátis Oferta 3 Pacotes — Funil completo" [ref=e166] [cursor=pointer]:
+            - /url: https://app.orayon.ai/fs
+            - img [ref=e168]
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - heading "Aula Gratuita (VSL)" [level=3] [ref=e172]
+                - generic [ref=e173]: Grátis
+              - paragraph [ref=e174]: Oferta 3 Pacotes — Funil completo
+            - img [ref=e176]
+          - link "Captação Evento — Franquia Digital Funil de captação para evento" [ref=e179] [cursor=pointer]:
+            - /url: https://app.orayon.ai/franquiadigital/fs
+            - img [ref=e181]
+            - generic [ref=e183]:
+              - heading "Captação Evento — Franquia Digital" [level=3] [ref=e185]
+              - paragraph [ref=e186]: Funil de captação para evento
+            - img [ref=e188]
+          - link "Captação Evento — Código Residual Funil de captação especializado" [ref=e191] [cursor=pointer]:
+            - /url: https://app.orayon.ai/codigoresidual/fs
+            - img [ref=e193]
+            - generic [ref=e195]:
+              - heading "Captação Evento — Código Residual" [level=3] [ref=e197]
+              - paragraph [ref=e198]: Funil de captação especializado
+            - img [ref=e200]
+      - generic [ref=e203]:
+        - generic [ref=e204]: Isca Cliente
+        - link "Start AI Grátis Funil Isca Gratuita — Comece com IA" [ref=e206] [cursor=pointer]:
+          - /url: https://app.orayon.ai/start-ai/fs
+          - img [ref=e208]
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - heading "Start AI" [level=3] [ref=e214]
+              - generic [ref=e215]: Grátis
+            - paragraph [ref=e216]: Funil Isca Gratuita — Comece com IA
+          - img [ref=e218]
+      - generic [ref=e221]:
+        - generic [ref=e222]: Aquisição Cliente
+        - generic [ref=e223]:
+          - link "Hub AI Funil Low Ticket — Automação inteligente" [ref=e224] [cursor=pointer]:
+            - /url: https://app.orayon.ai/hub-ai/fs
+            - img [ref=e226]
+            - generic [ref=e229]:
+              - heading "Hub AI" [level=3] [ref=e231]
+              - paragraph [ref=e232]: Funil Low Ticket — Automação inteligente
+            - img [ref=e234]
+          - link "Money AI Funil Low Ticket — Monetização com IA" [ref=e237] [cursor=pointer]:
+            - /url: https://app.orayon.ai/money-ai/fs
+            - img [ref=e239]
+            - generic [ref=e242]:
+              - heading "Money AI" [level=3] [ref=e244]
+              - paragraph [ref=e245]: Funil Low Ticket — Monetização com IA
+            - img [ref=e247]
+    - generic [ref=e250]:
+      - heading "Projetos Recentes" [level=2] [ref=e251]:
+        - img [ref=e252]
+        - text: Projetos Recentes
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - img "Project 1" [ref=e257]
+          - generic [ref=e259]:
+            - generic [ref=e260]: UI Design
+            - heading "Neon Bank App" [level=3] [ref=e261]
+        - generic [ref=e262]:
+          - img "Project 2" [ref=e263]
+          - heading "Arkitect" [level=3] [ref=e266]
+        - generic [ref=e267]:
+          - img "Project 3" [ref=e268]
+          - heading "HealthAI" [level=3] [ref=e271]
+        - generic [ref=e272]:
+          - img "Project 4" [ref=e273]
+          - generic [ref=e275]:
+            - generic [ref=e276]: Web Dev
+            - heading "TechFlow SaaS" [level=3] [ref=e277]
+  - alert [ref=e278]
